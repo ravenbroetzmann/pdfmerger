@@ -1,0 +1,20 @@
+{
+  "name": "pdfmergercli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -p .",
+    "ts:dev": "tsc -p . --watch",
+    "start": "node dist/app.js"
+  },
+  "bin": {
+    "merger": "dist/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.4.0",
+    "pdf-merger-js": "^4.1.1"
+  }
+}
