@@ -1,7 +1,10 @@
+#!/usr/bin/env node
 import { program } from "commander";
 import { mergePdf } from "./merger";
 
 program.name("Pdf Merger");
+program.version("1.0.0");
+program.description("simple pdf merger cli");
 program.option("-i <filenames...>", "pdf input file name");
 program.option("-o <filename>", "pdf output filename");
 
